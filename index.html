@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robotics Club Registration Form</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <body>
+  <style>
+    .container{
+      background-color: black;
+      color: white;
+      opacity: 0.8;
+
+      
+      
+      
+    
+    
+    }
+    .form-demo{
+      background-color: transparent; 
+      color: white;
+      columns: 2;
+      
+
+
+      
+    }
+
+    .form-demo2{
+      background-color:transparent ;
+      color: white;
+      columns: 2;
+      columns: 100%;
+    }
+
+    .form-demo3{
+      background-color: transparent;
+      color: white;
+
+    }
+
+    .form-demo4{
+      background-color: transparent;
+      color: white;
+
+    }
+
+    .form-demo5{
+      background-color: transparent;
+      color: white;
+      flex-grow:1;
+      
+
+    
+
+    }
+
+    .form-demo6{
+      background-color: transparent;
+      color: white;
+      
+
+
+    }
+    
+    
+
+    body{
+      background-image: url('robot.jpg');
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    select{
+      object-fit: cover;
+      height: fit-content;
+      width: 100%;
+      
+
+    }
+
+  
+
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+
+<h1>Robotics Club Registration Form</h1>
+<div class="form-demo container mb-4"> 
+<form>
+<div class="form-row md-4">
+<div class="form-group col-md-4">
+<label for="name">Name</label>
+<input type="input" class="form control" id="name" placeholder="What's your name?"> </div> </div>
+<div class="form-row md-4">
+<div class="form-group col-md-4">
+<label for="age">Age</label>
+<input type="input" class="form control" id="age" placeholder="How old are you?"> </div> </div> </div> 
+
+<div class="form-demo2 container mb-4"> 
+<div class="form-row md-4">
+<div class="form-group col-md-4">
+<label for="email">Email</label>
+<input type="email" class="form control" id="email" placeholder="What's your email?"> 
+</div> </div> 
+<div class="form-row md-4">
+<div class="fomr-group col-md-4">
+<label for="number">Number</label>
+<input type="input" class="form control" id="number" placeholder="What's your number? "> 
+</div> </div> </div>
+
+<div class="form-demo3 container mb-4">
+ <label for="form-demo3">Preferred Robotics Topics</label> 
+<div class="form-check mb-3">
+<input type="checkbox" class="form-check-input" id="check1">
+<label class="form-check-label" for="check1">Programming</label>
+</div> 
+
+<div class="form-check mb-3">
+<input type="checkbox" class="form-check-input" id="check2">
+<label class="form-check-label" for="check2">Electronics</label>
+</div>
+
+<div class="form-check mb-3">
+<input type="checkbox" class="form-check-input" id="check3">
+<label class="form-check-label" for="check3">Mechanical Design</label>
+</div> </div>
+
+<div class="form-demo4 container mb-4">
+<label for="form-demo4">Robotics Experience Level</label>
+<div class="form-check mb-3">
+<input type="radio" class="form-check-input" id="radio1" name="radio3" value="Beginner"> Beginner </div>
+<div class="form-check mb-3">
+<input type="radio" class="form-check-input" id="radio2" name="radio3" value="Intermediate"> Intermediate </div>
+<div class="form-check mb-3">
+<input type="radio" class="form-check-input" id="radio3" name="radio3" value="Advanced"> Advanced </div>
+</div>  
+
+<div class="form-demo5 container mb-4">
+  <label for="formdemo5">Preferred Robotics Project</label>  
+  <div class=" form-fluid mb-3 form-check-label">
+ <label for="select">Select a project type </label> 
+<select id="select" name="select">
+<option value="programming">Making a website</option>
+<option value="electronics">Making a device </option>
+<option value="robotics">Making a robot </option> </select>
+</div> </div> 
+
+<div class="form-demo6 container mb-4">
+  <label for="form-demo6">Statement of Interest</label>
+  <div class="form-check mb-3"> </div>
+  <textarea id="textarea" name="statement" rows="5" cols="50" placeholder="Pour your heart out!"></textarea>
+</div> 
+
+<button type="submit" class="btn btn-primary btn-blue">Submit</button>
+<button type="reset" class="btn btn-danger">Reset</button>
+
+
+
+
+
+
+
+    
+
+</div>
+
+</div>
+
+ 
+
+
+    </form>
+  </div>
+</div>
+</body>
+</html>
